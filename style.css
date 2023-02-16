@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+}
+
+.texto{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule:2px solid red;
+}
+::selection{
+    background-color: antiquewhite;
+    color: red;
+}
+h1:hover{
+    color: blueviolet;
+}
